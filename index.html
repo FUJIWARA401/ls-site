@@ -1,31 +1,67 @@
 <!doctype html>
 <html lang="ja">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>合同会社LS コーポレートサイト</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>合同会社LS｜コーポレートサイト</title>
+
 <style>
-body{
-  font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN",sans-serif;
-  margin:0;
-  background:#0b1220;
-  color:#e9edf6;
+:root{
+  --bg:#070d18;
+  --card:#0f1930;
+  --text:#eef2ff;
+  --muted:#b9c2d6;
+  --accent:#6ee7ff;
 }
-.wrap{max-width:900px;margin:0 auto;padding:40px 20px}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN",sans-serif;
+  background:var(--bg);
+  color:var(--text);
+}
+.wrap{max-width:1000px;margin:0 auto;padding:40px 20px}
+.logo{
+  font-size:40px;
+  font-weight:700;
+  letter-spacing:4px;
+  color:var(--accent);
+}
 .card{
-  background:#121a2b;
-  padding:24px;
-  border-radius:12px;
+  background:var(--card);
+  padding:32px;
+  border-radius:16px;
+  margin-top:24px;
 }
 h1{margin-top:0}
+ul{line-height:1.8}
+.mission{
+  font-size:20px;
+  font-weight:600;
+  color:var(--accent);
+  margin-top:16px;
+}
 </style>
 </head>
+
 <body>
 <div class="wrap">
-  <div class="card">
-    <h1>合同会社LS</h1>
-    <p>コーポレートサイト準備中です。</p>
-  </div>
+
+<div class="logo">LS</div>
+
+<div class="card">
+  <h1>合同会社LS</h1>
+
+  <p class="mission">全ての方々に豊かさを提供する</p>
+
+  <h2>事業内容</h2>
+  <ul>
+    <li>各種経営コンサルティング業務、営業代行業務、各種代理店業務</li>
+    <li>各種物品の企画、製造、販売、輸出入及び通信販売</li>
+    <li>美容クリニック等の斡旋及び紹介業務</li>
+  </ul>
+</div>
+
 </div>
 </body>
 </html>
